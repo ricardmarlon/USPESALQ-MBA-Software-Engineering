@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+body {
+    background-color: #DFD0B8;   
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #153448;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li a {    
+    margin: 0 5rem;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    border-bottom: 1px solid #948979;
+}
+
+
+.produtos {
+    margin: 2%;
+    
+}
+
+.produtos__lista {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.produtos__item {
+    max-width: 20rem;
+    border: 1px solid #153448;
+    padding: 10px;
+    border-radius: 5rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 5rem;
+    
+}
+
+.produtos__informacoes h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.produtos__descricao {
+    text-align: center;
+}
+.produtos__informacoes h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.produtos__informacoes s {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #8B322C;
+}
+.produtos__frete {
+    text-align: left;
+}
+
+.produtos__btn {
+    text-align: center;
+}
+
+.buy__btn {
+    padding:  0.5rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #DFD0B8;
+    background-color: #153448;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 5px #948979;    
+}
+
+.buy__btn:hover {
+    background-color: #3C5B6F;
+}
+
+.buy__btn:active {
+    background-color: #3C5B6F;
+    box-shadow: 0 5px #DFD0B8;
+    transform: translateY(4px);
+}
+
+.cart_btn {
+    border-radius: 4px;
+    background-color: #153448;
+    border: none;
+    color: #DFD0B8;
+    text-align: center;
+    font-size: 1rem;
+    padding:  0.5rem 1rem;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 5px #948979;  
+}
+
+.cart_btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+.cart_btn span:after {
+    content: '\002B';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.cart_btn:hover span {
+    padding-right: 25px;
+}
+
+.cart_btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+footer {
+    background-color: #153448;
+    color: #EEEEEE;
+    width:  100%;
+    padding: 2rem;
+    text-align: center;
+}
