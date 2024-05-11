@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DFD0B8;   
+    font-family: "Nunito Sans", sans-serif;
+}
+header {
+    background-color: #213555;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav li a {
+    margin: 0 9rem;
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: 1.2rem;
+}
+
+header nav li a:hover {
+    border-bottom: 1px solid aliceblue;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.produtos {
+    margin: 2%;
+}
+
+.produtos__lista {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.produtos__item {
+    flex: 0 1 calc(30% - 1rem);
+    max-width: 15rem;
+    margin: 1rem;
+    border: 1px solid #d2cec7;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 5px #968d7e;
+}
+
+.produtos__item :hover {
+    cursor: pointer;
+}
+
+.produtos__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.produtos__informacoes {
+    text-align: center;
+}
+
+.produtos__informacoes h4 {
+    font-size: 1.5rem;
+}
+
+.produtos__informacoes s {
+    font-size: 1rem;
+    color: red;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer p {
+    margin: 0;
+}
